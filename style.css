@@ -6,15 +6,53 @@ body {
   font-weight: 200;
 }
 
-header {
+a {
+  text-decoration: none;
+}
+
+header h1 {
   font-family: "Abril Fatface";
+  text-align: center;
 }
 
 main h2 {
-  font-family: "Roboto-Slab";
+  font-family: "Roboto Slab";
+}
+
+main h5 {
+  font-family: "Abril Fatface";
+  color: #dd3232;
+}
+
+nav {
+  color: #777;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 5px;
 }
 
 .newspaper-container {
   background-color: white;
   box-shadow: #ddd;
+  width: 700px;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.more-articles h4 {
+  font-family: "Roboto Slab";
+}
+
+.more-articles section {
+  display: inline-block;
+  width: 44%;
 }
