@@ -4,6 +4,7 @@ body {
   background: #eee;
   font-family: "Source Sans Pro";
   font-weight: 200;
+  align-self: center;
 }
 
 a {
@@ -28,6 +29,7 @@ nav {
   color: #777;
   border-top: 1px solid #777;
   border-bottom: 1px solid #777;
+  background-color: white;
 }
 
 nav ul {
@@ -40,9 +42,13 @@ nav li {
   padding: 5px;
 }
 
+main img {
+  width: 100%;
+}
+
 .newspaper-container {
   background-color: white;
-  box-shadow: #ddd;
+  box-shadow: 1px 1px 5px #ddd;
   width: 700px;
   border-radius: 20px;
   padding: 1em;
@@ -54,5 +60,5 @@ nav li {
 
 .more-articles section {
   display: inline-block;
-  width: 44%;
+  width: 40%;
 }
