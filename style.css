@@ -11,6 +11,12 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 0.9em;
+  text-align: justify;
+  padding: 0 10px;
+}
+
 header h1 {
   font-family: "Abril Fatface";
   text-align: center;
@@ -18,11 +24,13 @@ header h1 {
 
 main h2 {
   font-family: "Roboto Slab";
+  margin-bottom: 0;
 }
 
 main h5 {
   font-family: "Abril Fatface";
   color: #dd3232;
+  margin-top: 0.5em;
 }
 
 nav {
@@ -30,6 +38,8 @@ nav {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
