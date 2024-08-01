@@ -27,8 +27,8 @@ main h5 {
 
 nav {
   color: #777;
-  border-top: 1px solid #777;
-  border-bottom: 1px solid #777;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   background-color: white;
 }
 
@@ -42,6 +42,10 @@ nav li {
   padding: 5px;
 }
 
+nav a {
+  color: #777;
+}
+
 main img {
   width: 100%;
 }
@@ -52,13 +56,22 @@ main img {
   width: 700px;
   border-radius: 20px;
   padding: 1em;
+  margin: 3em auto;
 }
 
 .more-articles h4 {
   font-family: "Roboto Slab";
+  text-align: left;
+}
+.more-articles {
+  border-top: 1px solid #eee;
+  margin-top: 1.5em;
+  text-align: center;
 }
 
 .more-articles section {
   display: inline-block;
   width: 40%;
+  align-self: center;
+  margin: 0 1em;
 }
